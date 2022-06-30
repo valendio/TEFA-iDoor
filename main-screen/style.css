@@ -1,0 +1,352 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+:root {
+    --gray :#4a5568;
+    --darkgrey : #2D3748;
+}
+
+
+
+/* Home CSS */
+
+/* Navbar Section */
+nav {
+	width: 85%;
+	margin: 10px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 8vh;
+}
+
+.nav-logo h1 a {
+	font-size: 32px;
+	height: auto;
+	padding: 0 10px;
+    color: red;
+    text-decoration: none;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+    list-style: none;
+}
+
+.nav-links a {
+	color: #000;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+}
+/* End of navbar section */
+
+/* Hero Section*/
+.hero {
+    background-image: url(/img/background/hero.png);
+    background-size: cover;
+    height: 90vh;
+}
+
+.hero-caption {
+	position: relative;
+	top: 24vh;
+	left: 16vh;
+}
+
+.hero-caption h2 {
+	max-width: 400px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 1.1;
+}
+
+.hero-caption p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	opacity: 90%;
+	line-height: 1.5;
+	margin-top: 8px;
+	width: 300px;
+}
+
+.hero-caption button {
+	margin-top: 30px;
+	width: 120px;
+	border: none;
+	border-radius: 5px;
+	height: 36px;
+	background-color: red;
+	stroke: none;
+	cursor: pointer;
+}
+
+.hero-caption button a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* End of hero section */
+
+/* Teks choose city */
+.choose-city-caption h2 {
+	padding-top: 4%;
+	text-align: center;
+	max-width: 100%;
+	color: rgb(0, 0, 0);
+	font-weight: 550;
+	font-size: 42px;
+	line-height: 1.1;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* City Image Positioning */
+.choose-city {
+	height: auto;
+	display: flex;
+	padding-top: 4%;
+	align-items: center;
+	justify-content: space-around;
+}
+/* End of city image positioning */
+
+
+/* City Image section */
+.jakarta-button img{
+	border-radius: 10%;
+	width: 30vh;
+	height: 30vh;
+}
+
+.surabaya-button img {
+	border-radius: 10%;
+	width: 30vh;
+	height: 30vh;
+}
+
+.bali-button img {
+	border-radius: 10%;
+	width: 30vh;
+	height: 30vh;
+}
+
+.kediri-button img {
+	border-radius: 10%;
+	width: 30vh;
+	height: 30vh;
+}
+
+/* City Option */
+
+/* >Jakarta option */
+
+.hero-city-jakarta {
+    background-image: url(/img/background/bg-jakarta.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+.hero-caption-jakarta {
+	position: relative;
+	top: 24vh;
+	left: 16vh;
+}
+
+.hero-caption-jakarta h2 {
+	max-width: 400px;
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 1.1;
+}
+
+.hero-caption-jakarta p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	opacity: 90%;
+	line-height: 1.5;
+	margin-top: 8px;
+	width: 300px;
+}
+
+.hero-caption-jakarta button {
+	margin-top: 30px;
+	width: 120px;
+	border: none;
+	border-radius: 5px;
+	height: 36px;
+	background-color: red;
+	stroke: none;
+	cursor: pointer;
+}
+
+.hero-caption-jakarta button a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* End of jakarta option */
+
+/* Surabaya option */
+
+.hero-city-surabaya {
+    background-image: url(/img/background/bg-surabaya.png);
+    background-size: cover;
+    height: 90vh;
+}
+.hero-caption-surabaya {
+	position: relative;
+	top: 24vh;
+	left: 16vh;
+}
+
+.hero-caption-surabaya h2 {
+	max-width: 400px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 1.1;
+}
+
+.hero-caption-surabaya p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	opacity: 90%;
+	line-height: 1.5;
+	margin-top: 8px;
+	width: 300px;
+}
+
+.hero-caption-surabaya button {
+	margin-top: 30px;
+	width: 120px;
+	border: none;
+	border-radius: 5px;
+	height: 36px;
+	background-color: red;
+	stroke: none;
+	cursor: pointer;
+}
+
+.hero-caption-surabaya button a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* End of surabaya option */
+
+/* Kediri Option */
+.hero-city-kediri {
+    background-image: url(/img/background/bg-kediri.png);
+    background-size: cover;
+    height: 90vh;
+}
+.hero-caption-kediri {
+	position: relative;
+	top: 24vh;
+	left: 16vh;
+}
+
+.hero-caption-kediri h2 {
+	max-width: 400px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 1.1;
+}
+
+.hero-caption-kediri p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	opacity: 90%;
+	line-height: 1.5;
+	margin-top: 8px;
+	width: 300px;
+}
+
+.hero-caption-kediri button {
+	margin-top: 30px;
+	width: 120px;
+	border: none;
+	border-radius: 5px;
+	height: 36px;
+	background-color: red;
+	stroke: none;
+	cursor: pointer;
+}
+
+.hero-caption-kediri button a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 600;
+}
+/* End of kediri option */
+
+/* Bali option */
+.hero-city-bali {
+    background-image: url(/img/background/bg-bali.png);
+    background-size: cover;
+    height: 90vh;
+}
+.hero-caption-bali {
+	position: relative;
+	top: 24vh;
+	left: 16vh;
+}
+
+.hero-caption-bali h2 {
+	max-width: 400px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 1.1;
+}
+
+.hero-caption-bali p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	opacity: 90%;
+	line-height: 1.5;
+	margin-top: 8px;
+	width: 300px;
+}
+
+.hero-caption-bali button {
+	margin-top: 30px;
+	width: 120px;
+	border: none;
+	border-radius: 5px;
+	height: 36px;
+	background-color: red;
+	stroke: none;
+	cursor: pointer;
+}
+
+.hero-caption-bali button a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 600;
+}
+/* End of bali option */
+
+/* End of city option */
